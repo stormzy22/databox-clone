@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import MAINLAY from "../layout/MAIN-LAY";
 
 const Home = () => {
+   const [form_state, set_form_state] = useState(false);
    return (
       <MAINLAY>
          <div className="home-wrapper">
@@ -9,25 +10,13 @@ const Home = () => {
             <section className="home-section-1 py-3">
                <div className="home-section-1-grow">
                   <div className="index-header-img">
-                     <img src="/img/home/header.jpg" alt="" />
+                     <img src="/img/home/image4.jpg" loading="lazy" alt="" />
                   </div>
                   <div className="container">
                      <h1 className="text-center index-header-large-txt">Build dashboards and track performance from everywhere</h1>
-                     <p className="index-header-small-txt text-center">
+                     <p className="index-header-small-txt">
                         Connect your data <mark>from any tool and track it from any device.</mark> No more logging into dozens of different tools to understand performance — now you and your team can easily connect your data, build and share reports, monitor trends, and discover insights.
                      </p>
-                     <form className="d-flex flex-column align-items-center">
-                        <div className="d-flex align-items-center">
-                           <span className="mx-2">
-                              <i className="fas fa-rotate-left"></i>
-                           </span>
-                           <div className="input-group">
-                              <input type="email" name="" id="" className="form-control border-3 " placeholder="Your company email" />
-                              <button className="input-group-text btn btn-success rounded-2">Start now </button>
-                           </div>
-                        </div>
-                        <small>ww</small>
-                     </form>
                   </div>
                </div>
             </section>
@@ -86,22 +75,47 @@ const Home = () => {
             </section>
             {/* SECTION 3 */}
             <section className="home-section-3">
-               <img src="/img/home/sec2.jpg" alt="" />
+               <img src="/img/home/sec2.jpg" loading="lazy" alt="" />
             </section>
             {/* SECTION 4 */}
-            <section className="home-section-4 py-5">
+            <section className="home-section-4 py-3">
                <div className="container h-s-4-container">
-                  <div className="row mb-1 h-s-4-row">
-                     <div className="container h-s-4-row-container">
+                  <div className="row h-s-4-2ndrow">
+                     <div className="container h-s-4-2ndrow-container">
+                        <div className="h-s-4-2ndrow-icon-wrap"></div>
+                        <strong>Have other data that you need to send to Databox?</strong>
+                        <p>In addition to our 70+ native integrations, you can also send any data by connecting a SQL database, sending your data via API, or through one of our integrations with Google Sheets, Zapier, or Integromat.</p>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            {/* SECTION 5 */}
+            <section className="home-section-5 py-5">
+               <div className="h-s-5-container row ">
+                  <div className="col h-s-5-left d-none d-lg-flex flex-column justify-content-center">
+                     <img src="/img/home/image5.png" loading="lazy" alt="" />
+                  </div>
+                  <div className="col h-s-5-right">
+                     <div className="container">
                         <h3>Easily track thousands of metrics from all of your tools</h3>
                         <p>All Databox integrations come packed with the most popular metrics and their common visualizations already built into them. This way, you can spend less time figuring out how to visualize your data and more time actually acting on it. Mix and match metrics from different sources in one dashboard and get a more complete view of your performance at a glance.</p>
-                        <div className="h-s-4-row-btn-wrapper">
-                           <a href="" className="btn btn-lg btn-success mb-3 mb-md-0 ">
+                        <span>Dashboard Design</span>
+                        <h3>Build and customize your dashboards</h3>
+                        <p>No more fumbling around trying to visualize data in spreadsheets or slides. Using the Dashboard Designer, you can pull the metrics you need, visualize KPIs in a variety of ways, and fully customize the look and presentation of your dashboards—no code or design skills necessary.</p>
+                        <div className="h-s-5-btn-wrapper">
+                           <button className="btn btn-lg btn-success mb-3" onClick={() => set_form_state(!form_state)}>
                               Connect your first data source
-                           </a>
-                           <a href="" className="btn btn-lg btn-light text-primary ms-4 fw-bolder border-primary ">
-                              Browse integrations
-                           </a>
+                           </button>
+                           {form_state && (
+                              <form className="row row-cols-2">
+                                 <div className="col-auto">
+                                    <input type="search" className="form-control" />
+                                 </div>
+                                 <div className="col-auto">
+                                    <button className="btn btn-success">SEARCH</button>
+                                 </div>
+                              </form>
+                           )}
                         </div>
                      </div>
                   </div>

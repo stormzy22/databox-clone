@@ -27,14 +27,23 @@
             letter-spacing: 0.5px;
             margin-top: 20px;
             margin-bottom: 25px;
+            @media screen and (max-width: 768px) {
+               font-size: 2.6em;
+               line-height: 40px;
+            }
          }
          .index-header-small-txt {
-            color: #8e929b;
+            color: #000000;
             font-size: 1.125em;
             line-height: 28px;
             box-sizing: border-box;
             margin-bottom: 10px;
-            font-weight: 500;
+            font-weight: 600;
+            text-align: center;
+            @media screen and (max-width: 768px) {
+               text-align: justify;
+               // word-spacing: 0.5px;
+            }
          }
       }
    }
@@ -47,6 +56,10 @@
          letter-spacing: 0.5px;
          margin-top: 20px;
          margin-bottom: 25px;
+         @media screen and (max-width: 768px) {
+            font-size: 2.6em;
+            line-height: 40px;
+         }
       }
       .h-s-2-small-txt {
          color: #8e929b;
@@ -105,39 +118,82 @@
    }
    .home-section-4 {
       .h-s-4-container {
-         .h-s-4-row {
+         .h-s-4-2ndrow {
             &-container {
-               h3 {
+               .h-s-4-2ndrow-icon-wrap {
                   text-align: center;
                   box-sizing: border-box;
-                  margin-top: 20px;
+                  // font-size: 50px;
+                  color: #8e929b;
+                  margin-bottom: 15px;
+               }
+               strong {
                   color: #2d3237;
-                  font-weight: bold;
-                  font-size: 2.25em;
-                  line-height: 36px;
-                  margin-bottom: 25px;
+                  text-align: center;
+                  box-sizing: border-box;
+                  font-weight: 500;
+                  font-size: 1.125em;
+                  line-height: 28px;
+                  display: block;
+                  @media screen and (max-width: 768px) {
+                     font-size: 1.15em;
+                     color: black;
+                     font-weight: 700;
+                  }
                }
                p {
                   text-align: center;
                   box-sizing: border-box;
                   margin: 0 0 10px;
-                  margin-bottom: 50px;
                   color: #8e929b;
                   font-size: 1.125em;
                   line-height: 28px;
-                  font-weight: bold;
-               }
-               .h-s-4-row-btn-wrapper {
-                  font-size: 14px;
-                  line-height: 1.42857143;
-                  color: #2d3237;
-                  font-weight: 300;
-                  text-align: center;
-                  box-sizing: border-box;
-                  a {
-                     font-size: 1.4em;
+                  @media screen and (max-width: 768px) {
+                     text-align: justify;
                   }
                }
+            }
+         }
+      }
+   }
+   .home-section-5 {
+      background: #222423;
+      overflow: hidden;
+      .h-s-5-container {
+         .h-s-5-left {
+            overflow: hidden;
+            img {
+               width: 100%;
+            }
+         }
+         .h-s-5-right {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            span {
+               line-height: 1.42857143;
+               box-sizing: border-box;
+               font-size: 10px;
+               color: #a39bae;
+               text-transform: uppercase;
+               letter-spacing: 2px;
+            }
+            h3 {
+               font-family: inherit;
+               font-weight: 500;
+               font-size: 36px;
+               line-height: 36px;
+               margin-bottom: 25px;
+               color: #fff;
+               margin-top: 10px;
+            }
+            p {
+               margin: 0 0 10px;
+               margin-bottom: 20px !important;
+               font-size: 18px;
+               line-height: 28px;
+               font-weight: 400;
+               color: #758088;
             }
          }
       }
