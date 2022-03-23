@@ -1,8 +1,22 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import MAINLAY from "../layout/MAIN-LAY";
 
 const Home = () => {
    const [form_state, set_form_state] = useState(false);
+   const img_arr = ["image4.jpg", "image1.jpg", "image2.png"];
+   let num = 0;
+   const [img, setImg] = useState(num);
+   useEffect(() => {
+      setInterval(() => {
+         num = num + 1;
+         if (num > 2) {
+            num = 0;
+            setImg(num);
+         } else {
+            setImg(num);
+         }
+      }, 6000);
+   }, []);
    return (
       <MAINLAY>
          <div className="home-wrapper">
@@ -10,7 +24,7 @@ const Home = () => {
             <section className="home-section-1 py-3">
                <div className="home-section-1-grow">
                   <div className="index-header-img">
-                     <img src="/img/home/image4.jpg" loading="lazy" alt="" />
+                     <img src={`/img/home/${img_arr[img]}`} loading="lazy" alt="" />
                   </div>
                   <div className="container">
                      <h1 className="text-center index-header-large-txt">Build dashboards and track performance from everywhere</h1>

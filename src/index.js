@@ -4,7 +4,7 @@ import "./index.css";
 import App from "./App";
 import "./style/style.scss";
 import "./style/index.scss";
-import "@fortawesome/fontawesome-free";
+import "@fortawesome/fontawesome-free/css/all.css";
 
 ReactDOM.render(
    <React.StrictMode>
