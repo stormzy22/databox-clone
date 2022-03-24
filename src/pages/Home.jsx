@@ -15,7 +15,7 @@ const Home = () => {
          } else {
             setImg(num);
          }
-      }, 6000);
+      }, 2000);
    }, []);
    return (
       <MAINLAY>
