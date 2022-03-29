@@ -66,48 +66,11 @@
          font-size: 1.125em;
          line-height: 28px;
          box-sizing: border-box;
-         margin-bottom: 60px;
          font-weight: 500;
+         text-align: justify;
       }
-      .h-s-2-row {
-         .h-s-2-col {
-            .h-s-2-card {
-               border: 0;
-               outline: 0;
-               &-body {
-                  .img-container {
-                     padding-top: 30px;
-                     margin-bottom: 30px;
-                     img {
-                        width: 50%;
-                        @media screen and (max-width: 768px) {
-                           width: 70%;
-                        }
-                     }
-                     img:nth-child(1) {
-                        margin-bottom: 35px;
-                     }
-                  }
-                  &-score {
-                     font-size: 1.125em;
-                     margin-bottom: 10px;
-                     line-height: 25.7143px;
-                     span {
-                        font-weight: bolder;
-                     }
-                  }
-                  a {
-                     line-height: 1.42857143;
-                     font-size: 18px;
-                     text-align: center;
-                     box-sizing: border-box;
-                     color: #1d9ad6;
-                     text-decoration: underline;
-                     font-weight: 500;
-                  }
-               }
-            }
-         }
+
+      .h-s-2-about {
       }
    }
    .home-section-3 {

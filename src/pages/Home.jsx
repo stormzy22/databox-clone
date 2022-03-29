@@ -27,9 +27,9 @@ const Home = () => {
                      <img src={`/img/home/${img_arr[img]}`} loading="lazy" alt="" />
                   </div>
                   <div className="container">
-                     <h1 className="text-center index-header-large-txt">Build dashboards and track performance from everywhere</h1>
+                     <h1 className="text-center index-header-large-txt">Track performance using sentiments from social media</h1>
                      <p className="index-header-small-txt">
-                        Connect your data <mark>from any tool and track it from any device.</mark> No more logging into dozens of different tools to understand performance — now you and your team can easily connect your data, build and share reports, monitor trends, and discover insights.
+                        Understand products and customers using social media<mark>Track and analyze comments from social media using Artificial intelligence.</mark> use machine learning and natural language processing to understand performance of your survey by analyzing unbiased comments of your users — now you and your team can easily connect your social media, visualize analytical reports, monitor trends, and discover insights.
                      </p>
                   </div>
                </div>
@@ -38,51 +38,14 @@ const Home = () => {
             <section className="home-section-2">
                <div className="py-5">
                   <div className="container">
-                     <h2 className="h-s-2-large-txt text-center">Databox is just easier to use</h2>
-                     <p className="h-s-2-small-txt text-center">20,000+ businesses use Databox to track and visualize performance easier than they ever have before.</p>
-                     <div className="row row-cols-1 row-cols-lg-3 h-s-2-row">
-                        {/* ---------------[1]------------ */}
-                        <div className="col h-s-2-col">
-                           <div className="card h-s-2-card">
-                              <div className="card-body h-s-2-card-body">
-                                 <div className="img-container">
-                                    <img src="/img/home/logo-g2crowd.png" alt="" className="d-block mx-auto" />
-                                    <img src="/img/home/4-5stars.png" alt="" className="d-block mx-auto" />
-                                 </div>
-                                 <div className="h-s-2-card-body-score text-center">
-                                    <span>4.5</span> out of <span>5 </span>stars
-                                 </div>
-                                 <a className="d-block">read reviews</a>
-                              </div>
-                           </div>
-                        </div>
-                        {/* ----------------[2]------------ */}
-                        <div className="col h-s-2-col">
-                           <div className="card h-s-2-card">
-                              <div className="card-body h-s-2-card-body">
-                                 <div className="img-container">
-                                    <img src="/img/home/g2.png" alt="" className="d-block mx-auto" />
-                                 </div>
-                                 <p className="h-s-2-card-body-score text-center">2022 Leader on the</p>
-                                 <a className="d-block">G2 Grid for Data Visualization</a>
-                              </div>
-                           </div>
-                        </div>
-                        {/* ----------------[3]------------ */}
-                        <div className="col h-s-2-col">
-                           <div className="card h-s-2-card">
-                              <div className="card-body h-s-2-card-body">
-                                 <div className="img-container">
-                                    <img src="/img/home/logo-capterra-2.png" alt="" className="d-block mx-auto" />
-                                    <img src="/img/home/4-5stars.png" alt="" className="d-block mx-auto" />
-                                 </div>
-                                 <div className="h-s-2-card-body-score text-center">
-                                    <span>4.5</span> out of <span>5 </span>stars
-                                 </div>
-                                 <a className="d-block">read reviews</a>
-                              </div>
-                           </div>
-                        </div>
+                     <h2 className="h-s-2-large-txt text-center">Our algorithm can serve your business analytical needs</h2>
+                     <p className="h-s-2-small-txt">We have made machine learning accessable for your business neeeds to track and visualize performance easier than they ever have before. Our sentiment driven solution will help you understand customers needs helping you scale your products and services.</p>
+                     <p className="h-s-2-small-txt ">We can also help you run tailored, engaging social media campaigns to help you generate the right kind of sentiments to answer specific business questions, that will meet your your business needs. We believe every business should understand its market and should be able to capitalize on that information, our goal is simply to help you understand your business needs</p>
+                     <div className="h-s-2-about">
+                        <h2 className="h-s-2-large-txt text-center">About us</h2>
+                        <p className="h-s-2-small-txt">Unbiased Analytics is an AI product, that helps simplies how realistic business survey data can be collected and analyzed eliminating. With this tool, users are able to seamlessly run our AI algorithm against there social media campaigns, product reviews and general comments about their products and services for deeper and more detailed insights, instantaneously. our platform is compatible with a number of popular platforms such as Twitter, Facebook, Instagram, Linkedin and Tiktok giving users the ability to gain clear understanding about their business needs judging from sentiments of customers.</p>
+                        <h2 className="h-s-2-large-txt text-center">You dont need a Data Database to use our platform</h2>
+                        <p className="h-s-2-small-txt">Our platform does not require your database, we have infact allow you to own a database on our server where you can store your sentiments and access it on the cloud. Our skillfull data engineering process connects your data seamlesslessly to our datawarehouse where sentiments can be analyzed and tracked.</p>
                      </div>
                   </div>
                </div>
