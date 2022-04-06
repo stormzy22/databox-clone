@@ -45,7 +45,53 @@ const Home = () => {
                         <h2 className="h-s-2-large-txt text-center">About us</h2>
                         <p className="h-s-2-small-txt">Unbiased Analytics is an AI product, that helps simplies how realistic business survey data can be collected and analyzed eliminating. With this tool, users are able to seamlessly run our AI algorithm against there social media campaigns, product reviews and general comments about their products and services for deeper and more detailed insights, instantaneously. our platform is compatible with a number of popular platforms such as Twitter, Facebook, Instagram, Linkedin and Tiktok giving users the ability to gain clear understanding about their business needs judging from sentiments of customers.</p>
                         <h2 className="h-s-2-large-txt text-center">You dont need a Data Database to use our platform</h2>
-                        <p className="h-s-2-small-txt">Our platform does not require your database, we have infact allow you to own a database on our server where you can store your sentiments and access it on the cloud. Our skillfull data engineering process connects your data seamlesslessly to our datawarehouse where sentiments can be analyzed and tracked.</p>
+                        <p className="h-s-2-small-txt mb-5">Our platform does not require your database, we have infact allow you to own a database on our server where you can store your sentiments and access it on the cloud. Our skillfull data engineering process connects your data seamlesslessly to our datawarehouse where sentiments can be analyzed and tracked.</p>
+                        <div className="h-s-2-about-card">
+                           <div className="row row-cols-1 row-cols-lg-2 g-4">
+                              {/* -------------- */}
+                              <div className="col about-col">
+                                 <div className="card about-col-card">
+                                    <div className="card-body about-col-card-body">
+                                       <div className="card-title about-col-card-title">
+                                          <i className="fa-brands fa-uikit fa-10x"></i>
+                                       </div>
+                                       <div className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur voluptas est excepturi dolor. Ex aliquid voluptatibus, cupiditate eligendi corrupti placeat, quae excepturi, minus ut necessitatibus sit aut porro consequuntur voluptas tempora animi maxime accusantium fugit odio unde. Porro vel voluptates consequatur possimus adipisci molestias sequi animi dolor ipsa maiores? Voluptate non ipsum, natus aut esse magni dicta. Porro expedita sequi earum veritatis minus fugit. Laudantium ipsum voluptatum enim deleniti aliquam neque labore debitis natus nemo laborum doloremque fuga officiis qui delectus blanditiis eligendi, dicta voluptate quo. Quasi quisquam eveniet quibusdam deserunt ab quia aut, ex, suscipit magnam, iure odio. Perferendis.</div>
+                                    </div>
+                                 </div>
+                              </div>
+                              {/* -------------- */}
+                              <div className="col about-col">
+                                 <div className="card h-100 about-col-card">
+                                    <div className="card-body about-col-card-body">
+                                       <div className="card-title">
+                                          <i className="fa-solid fa-gears fa-10x "></i>
+                                       </div>
+                                       <div className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur voluptas est excepturi dolor. Ex aliquid voluptatibus, cupiditate eligendi corrupti placeat, quae excepturi, minus ut necessitatibus sit aut porro consequuntur voluptas tempora animi maxime accusantium fugit odio unde. Porro vel voluptates consequatur possimus adipisci molestias sequi animi dolor ipsa maiores? Voluptate non ipsum, natus aut esse magni dicta. Porro expedita sequi earum veritatis minus fugit. Laudantium ipsum voluptatum enim deleniti aliquam neque labore debitis natus nemo laborum doloremque fuga officiis qui delectus blanditiis eligendi, dicta voluptate quo. Quasi quisquam eveniet quibusdam deserunt ab quia aut, ex, suscipit magnam, iure odio. Perferendis.</div>
+                                    </div>
+                                 </div>
+                              </div>
+                              {/* -------------- */}
+                              <div className="col about-col">
+                                 <div className="card h-100 about-col-card">
+                                    <div className="card-body about-col-card-body">
+                                       <div className="card-title">
+                                          <i className="fa-solid fa-lightbulb fa-10x"></i>
+                                       </div>
+                                       <div className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur voluptas est excepturi dolor. Ex aliquid voluptatibus, cupiditate eligendi corrupti placeat, quae excepturi, minus ut necessitatibus sit aut porro consequuntur voluptas tempora animi maxime accusantium fugit odio unde. Porro vel voluptates consequatur possimus adipisci molestias sequi animi dolor ipsa maiores? Voluptate non ipsum, natus aut esse magni dicta. Porro expedita sequi earum veritatis minus fugit. Laudantium ipsum voluptatum enim deleniti aliquam neque labore debitis natus nemo laborum doloremque fuga officiis qui delectus blanditiis eligendi, dicta voluptate quo. Quasi quisquam eveniet quibusdam deserunt ab quia aut, ex, suscipit magnam, iure odio. Perferendis.</div>
+                                    </div>
+                                 </div>
+                              </div>
+                              {/* -------------- */}
+                              <div className="col about-col">
+                                 <div className="card h-100 about-col-card">
+                                    <div className="card-body about-col-card-body">
+                                       <div className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur voluptas est excepturi dolor. Ex aliquid voluptatibus, cupiditate eligendi corrupti placeat, quae excepturi, minus ut necessitatibus sit aut porro consequuntur voluptas tempora animi maxime accusantium fugit odio unde. Porro vel voluptates consequatur possimus adipisci molestias sequi animi dolor ipsa maiores? Voluptate non ipsum, natus aut esse magni dicta. Porro expedita sequi earum veritatis minus fugit. Laudantium ipsum voluptatum enim deleniti aliquam neque labore debitis natus nemo laborum doloremque fuga officiis qui delectus blanditiis eligendi, dicta voluptate quo. Quasi quisquam eveniet quibusdam deserunt ab quia aut, ex, suscipit magnam, iure odio. Perferendis.</div>
+                                    </div>
+                                 </div>
+                              </div>
+                              {/* -------------- */}
+                           </div>
+                        </div>
                      </div>
                   </div>
                </div>
