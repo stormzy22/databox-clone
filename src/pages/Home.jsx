@@ -31,6 +31,21 @@ const Home = () => {
                      <p className="index-header-small-txt">
                         Understand products and customers using social media<mark>Track and analyze comments from social media using Artificial intelligence.</mark> use machine learning and natural language processing to understand performance of your survey by analyzing unbiased comments of your users — now you and your team can easily connect your social media, visualize analytical reports, monitor trends, and discover insights.
                      </p>
+                     <div className="d-flex flex-column align-items-center">
+                        <button className="btn btn-lg btn-success mb-3" onClick={() => set_form_state(!form_state)}>
+                           Track your first product
+                        </button>
+                        {form_state && (
+                           <form className="row row-cols-2">
+                              <div className="col-auto">
+                                 <input type="search" className="form-control" />
+                              </div>
+                              <div className="col-auto">
+                                 <button className="btn btn-success">SEARCH</button>
+                              </div>
+                           </form>
+                        )}
+                     </div>
                   </div>
                </div>
             </section>
