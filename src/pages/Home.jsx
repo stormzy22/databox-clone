@@ -143,21 +143,6 @@ const Home = () => {
                         <span>Dashboard Design</span>
                         <h3>Build and customize your dashboards</h3>
                         <p>No more fumbling around trying to visualize data in spreadsheets or slides. Using the Dashboard Designer, you can pull the metrics you need, visualize KPIs in a variety of ways, and fully customize the look and presentation of your dashboards—no code or design skills necessary.</p>
-                        <div className="h-s-5-btn-wrapper">
-                           <button className="btn btn-lg btn-success mb-3" onClick={() => set_form_state(!form_state)}>
-                              Connect your first data source
-                           </button>
-                           {form_state && (
-                              <form className="row row-cols-2">
-                                 <div className="col-auto">
-                                    <input type="search" className="form-control" />
-                                 </div>
-                                 <div className="col-auto">
-                                    <button className="btn btn-success">SEARCH</button>
-                                 </div>
-                              </form>
-                           )}
-                        </div>
                      </div>
                   </div>
                </div>
