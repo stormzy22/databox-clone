@@ -72,7 +72,6 @@
 
       .h-s-2-about {
          &-card {
-            // background-color: red;
             .about-col {
                &-card {
                   border: 0;
@@ -84,6 +83,9 @@
                      border-top: 15px solid blue;
                   }
                   &-body {
+                     .about-col-card-title {
+                        padding: 15px 0;
+                     }
                      .card-text {
                         text-align: justify;
                      }

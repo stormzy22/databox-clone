@@ -63,7 +63,7 @@ const Home = () => {
                               <div className="col about-col">
                                  <div className="card h-100 about-col-card">
                                     <div className="card-body about-col-card-body">
-                                       <div className="card-title">
+                                       <div className="card-title  about-col-card-title">
                                           <i className="fa-solid fa-gears fa-10x "></i>
                                        </div>
                                        <div className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur voluptas est excepturi dolor. Ex aliquid voluptatibus, cupiditate eligendi corrupti placeat, quae excepturi, minus ut necessitatibus sit aut porro consequuntur voluptas tempora animi maxime accusantium fugit odio unde. Porro vel voluptates consequatur possimus adipisci molestias sequi animi dolor ipsa maiores? Voluptate non ipsum, natus aut esse magni dicta. Porro expedita sequi earum veritatis minus fugit. Laudantium ipsum voluptatum enim deleniti aliquam neque labore debitis natus nemo laborum doloremque fuga officiis qui delectus blanditiis eligendi, dicta voluptate quo. Quasi quisquam eveniet quibusdam deserunt ab quia aut, ex, suscipit magnam, iure odio. Perferendis.</div>
@@ -74,7 +74,7 @@ const Home = () => {
                               <div className="col about-col">
                                  <div className="card h-100 about-col-card">
                                     <div className="card-body about-col-card-body">
-                                       <div className="card-title">
+                                       <div className="card-title  about-col-card-title">
                                           <i className="fa-solid fa-lightbulb fa-10x"></i>
                                        </div>
                                        <div className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur voluptas est excepturi dolor. Ex aliquid voluptatibus, cupiditate eligendi corrupti placeat, quae excepturi, minus ut necessitatibus sit aut porro consequuntur voluptas tempora animi maxime accusantium fugit odio unde. Porro vel voluptates consequatur possimus adipisci molestias sequi animi dolor ipsa maiores? Voluptate non ipsum, natus aut esse magni dicta. Porro expedita sequi earum veritatis minus fugit. Laudantium ipsum voluptatum enim deleniti aliquam neque labore debitis natus nemo laborum doloremque fuga officiis qui delectus blanditiis eligendi, dicta voluptate quo. Quasi quisquam eveniet quibusdam deserunt ab quia aut, ex, suscipit magnam, iure odio. Perferendis.</div>
@@ -85,6 +85,9 @@ const Home = () => {
                               <div className="col about-col">
                                  <div className="card h-100 about-col-card">
                                     <div className="card-body about-col-card-body">
+                                       <div className="card-title  about-col-card-title">
+                                          <i className="fa-solid fa-brain fa-10x"></i>
+                                       </div>
                                        <div className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur voluptas est excepturi dolor. Ex aliquid voluptatibus, cupiditate eligendi corrupti placeat, quae excepturi, minus ut necessitatibus sit aut porro consequuntur voluptas tempora animi maxime accusantium fugit odio unde. Porro vel voluptates consequatur possimus adipisci molestias sequi animi dolor ipsa maiores? Voluptate non ipsum, natus aut esse magni dicta. Porro expedita sequi earum veritatis minus fugit. Laudantium ipsum voluptatum enim deleniti aliquam neque labore debitis natus nemo laborum doloremque fuga officiis qui delectus blanditiis eligendi, dicta voluptate quo. Quasi quisquam eveniet quibusdam deserunt ab quia aut, ex, suscipit magnam, iure odio. Perferendis.</div>
                                     </div>
                                  </div>
